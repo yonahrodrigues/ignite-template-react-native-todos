@@ -5,7 +5,7 @@ import { Header } from "../components/Header";
 import { Task, TasksList } from "../components/TasksList";
 import { TodoInput } from "../components/TodoInput";
 
-type EditTaskArgs = {
+export type EditTaskArgs = {
   taskId: number;
   taskNewTitle: string;
 };
